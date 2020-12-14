@@ -17,12 +17,14 @@ import {
     TypographyProps,
     theme
 } from "sommelier";
+import ButtonIcon from "sommelier/lib/module/images/ButtonIcon";
 
 export default function App() {
     return (
         <ThemeProvider theme={theme}>
             <Box backgroundColor="lightGray">
                 <Header size='h1'>COLOR</Header>
+                <ButtonIcon />
             </Box>
         </ThemeProvider>
     );
